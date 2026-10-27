@@ -1,0 +1,21 @@
+# Dependencies (Ukuran folder ini sangat besar, wajib diabaikan)
+node_modules/
+
+# Production Build (Folder hasil compile yang tidak perlu di-commit)
+dist/
+dist-ssr/
+
+# Vite Cache (Folder cache sementara milik Vite)
+.vite/
+
+# Environment Files (SANGAT PENTING: Untuk menyembunyikan API Key / Token rahasia)
+# .env
+# .env.local
+# .env.*.local
+
+# IDE & OS Cache (Agar file sampah editor/sistem tidak masuk ke Git)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.eslintcache
