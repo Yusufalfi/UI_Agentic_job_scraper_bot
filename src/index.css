@@ -104,19 +104,37 @@ button:disabled {
   margin-right: 8px;
 }
 
-h1 {
+/* h1 {
   margin: 0;
   font-family: Syne, sans-serif;
   font-size: clamp(50px, 5vw, 100px);
   line-height: 0.84;
   letter-spacing: -0.07em;
-  /* border: 1px solid red; */
+
+}
+
+h1 em {
+  color: #ff4d35;
+  font-style: normal;
+} */
+
+h1 {
+  margin: 0;
+  font-family: Syne, sans-serif;
+  
+  /* Ukuran disusutkan agar muat sebelum menabrak sticky note */
+  font-size: clamp(32px, 4.3vw, 64px); 
+  
+  line-height: 0.84;
+  letter-spacing: -0.06em;
+  white-space: nowrap;
 }
 
 h1 em {
   color: #ff4d35;
   font-style: normal;
 }
+
 
 .hero-copy p {
   max-width: 650px;
