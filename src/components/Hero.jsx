@@ -11,7 +11,7 @@ function Hero() {
         <h1>
           FIND JOBS.
           <br />
-          <em>SKIP THE</em> GRIND.
+          <em>AUTOMATE</em> THE HUNT.
         </h1>
 
         <p>
